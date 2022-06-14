@@ -1,0 +1,47 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    caret-color: transparent;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.wrapper h1{
+    text-align: center;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+}
+
+.game-board > ul{
+    border: 1px solid #333;
+    width: 250px;
+}
+
+.game-board > ul >li{
+    width: 100%;
+}
+
+.game-board > ul > li > ul{
+    display: flex;
+}
+.game-board > ul >li>ul>li{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    border: 1px solid rgba(30, 30, 30, 0.1);
+}
