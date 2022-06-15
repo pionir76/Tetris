@@ -45,3 +45,31 @@ body{
     display: flex;
     border: 1px solid rgba(30, 30, 30, 0.1);
 }
+
+.tree {
+    background: #67c23a;
+  }
+  
+  .square {
+    background: rgb(190, 58, 194);
+  }
+  
+  .bar {
+    background: #7061ca;
+  }
+  
+  .lbar1 {
+    background: #d39a30;
+  }
+  
+  .lbar2 {
+    background: #af1e31;
+  }
+  
+  .zbar1 {
+    background: #30d33d;
+  }
+  
+  .zbar2 {
+    background: #07a598;
+  }
